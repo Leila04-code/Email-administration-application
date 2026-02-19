@@ -4,25 +4,26 @@ A Java application built as an IT Support Administrator tool for creating and ma
 
 ## Features
 
-- Auto-generates email as `firstname.lastname@department.company.com`
-- Assigns department (sales, development, accounting)
-- Generates a random password upon account creation
-- Setter methods to update password, mailbox capacity, and alternate email
-- Getter methods to display name, email, and mailbox capacity
+- Generates employee emails as `firstname.lastname@dept.company.com`
+- Supports departments: Sales (sales), Development (dev), Accounting (acct)
+- Auto-generates a random password on account creation
+- Detects and prevents duplicate email addresses
+- Stores and manages multiple accounts using ArrayList
+- Displays all created accounts through a clean Swing GUI
+- Getters & Setters to manage password, mailbox capacity, and alternate email
 
 ## Technologies
+- Java & OOP (Encapsulation, Classes, Methods)
+- Java Swing (GUI)
+- ArrayList & Collections
+- String Manipulation
 
-- Java
-- Object-Oriented Programming (OOP)
-- Encapsulation (Getters & Setters)
-- String manipulation
-
-## How to Run
-
-1. Clone the repository
-   git clone https://github.com/Leila04-code/Email-administration-application
-2. Open the project in Eclipse
-3. Run the main class
+## Getting Started
+```bash
+git clone https://github.com/Leila04-code/Email-administration-application
+```
+1. Open the project in Eclipse
+2. Run `EmailAdminGUI.java`
 
 ## Author
 Leila
